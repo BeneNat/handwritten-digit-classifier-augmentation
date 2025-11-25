@@ -3,9 +3,7 @@ __pycache__/
 *.pyc
 
 # Notebooks
-.ipynb_checkpoints
+#.ipynb_checkpoints
 
 # Data and Models
 data/
-models/
-results/
