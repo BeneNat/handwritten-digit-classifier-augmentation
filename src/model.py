@@ -1,5 +1,5 @@
-from keras.models import Sequential
-from keras.layers import Conv2D, MaxPool2D, Flatten, Dense
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D, MaxPool2D, Flatten, Dense
 
 def build_cnn():
     model = Sequential([

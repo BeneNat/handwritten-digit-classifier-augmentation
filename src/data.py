@@ -1,6 +1,5 @@
-from keras.datasets import mnist
-from keras.utils import to_categorical
-import numpy as np
+from tensorflow.keras.datasets import mnist
+from tensorflow.keras.utils import to_categorical
 
 def load_data(normalize=True, flatten=False):
     (x_train, y_train), (x_test, y_test) = mnist.load_data()
