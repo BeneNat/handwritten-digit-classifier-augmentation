@@ -16,10 +16,8 @@ venv/
 .ipynb_checkpoints/
 
 # Data / Models (optional)
-data/
-results/models/
-results/plots/
-results/samples/
+#results/models/
+#results/plots/
 
 # OS files
 .DS_Store
