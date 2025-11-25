@@ -1,9 +1,26 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
 
-# Notebooks
-#.ipynb_checkpoints
+# Virtual env
+env/
+venv/
+.venv/
 
-# Data and Models
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data / Models (optional)
 data/
+results/models/
+results/plots/
+results/samples/
+
+# OS files
+.DS_Store
+Thumbs.db
