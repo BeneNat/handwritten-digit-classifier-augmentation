@@ -119,4 +119,4 @@ Upon successful execution, the following artifacts will be generated in the `res
   * Jakub Brachowicz
 
 ---
-<span style="font-size: 0.9em; color: #6a737d;">AGH University of Krakow - ESL Course Project 2025</span>
+*AGH University of Krakow- ESL Course Project 2025*
