@@ -96,4 +96,3 @@ def show_example_predictions(model_no_aug, model_aug, x_test, y_test, n=5):
         )
         plt.axis("off")
         plt.show()
-
