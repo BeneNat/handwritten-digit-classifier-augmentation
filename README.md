@@ -117,11 +117,20 @@ Upon successful execution, the following artifacts will be generated in the `res
 The complete project presentation (in Polish) used for the initial proposal is available here:
 [Prezentacja Projektu ESL (PDF)](presentation/Prezentacja_Projekt_ESL.pdf)
 
-## Authors
+## Authors and Context
 
-  * Filip Żurek
-  * Jan Ber
-  * Jakub Brachowicz
+* **Authors:**
+    * Filip Żurek
+    * Jan Ber
+    * Jakub Brachowicz
+* **Institution:** AGH University of Krakow
+* **Faculty:** Faculty of Computer Science, Electronics and Telecommunications
+* **Field of Study:** Electronics and Telecommunications
+* **Course:** Digital Systems Design using High-Level Languages (ESL)
+
+## License
+
+This software is distributed under the MIT License. Refer to the [LICENSE](LICENSE) file for the full text.
 
 ---
 *AGH University of Krakow - ESL Course Project 2025*
