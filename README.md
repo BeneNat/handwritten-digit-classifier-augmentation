@@ -124,4 +124,4 @@ The complete project presentation (in Polish) used for the initial proposal is a
   * Jakub Brachowicz
 
 ---
-*AGH University of Krakow- ESL Course Project 2025*
+*AGH University of Krakow - ESL Course Project 2025*
