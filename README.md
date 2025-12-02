@@ -112,6 +112,10 @@ Upon successful execution, the following artifacts will be generated in the `res
       * `loss_comparison.png`: Comparison of validation loss convergence.
       * `confusion_matrix_comparison.png`: Side-by-side heatmap comparison of misclassifications for both models on the test set.
 
+### Project Documentation
+The complete project presentation (in Polish) used for the initial proposal is available here:
+[Prezentacja Projektu ESL (PDF)](presentation/Prezentacja_Projekt_ESL.pdf)
+
 ## Authors
 
   * Filip Żurek
