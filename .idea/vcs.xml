@@ -2,7 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/notebooks/handwritten-digit-classifier-augmentation" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/notebooks/handwritten-digit-classifier-augmentation/handwritten-digit-classifier-augmentation" vcs="Git" />
   </component>
 </project>
