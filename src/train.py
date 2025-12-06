@@ -4,13 +4,18 @@ from .augment import get_augmenter
 from .model import build_cnn
 
 def train(epochs=5, batch_size=32, save_model=True, model_path='../results/models/cnn_augmented.keras'):
+    """
+    Trains the CNN model with data augmentation.
+    """
     x_train, y_train, x_test, y_test = load_data()
 
+    # Initialize and fit the augmenter
     augmenter = get_augmenter()
     augmenter.fit(x_train)
 
     model = build_cnn()
 
+    # Train using the generator
     history = model.fit(
         augmenter.flow(x_train, y_train, batch_size=batch_size),
         validation_data=(x_test, y_test),
@@ -25,10 +30,14 @@ def train(epochs=5, batch_size=32, save_model=True, model_path='../results/model
     return history, model
 
 def train_no_augmentation(epochs=5, batch_size=32, save_model=True, model_path='../results/models/cnn_normal.keras'):
+    """
+    Trains the baseline CNN model without augmentation.
+    """
     x_train, y_train, x_test, y_test = load_data()
 
     model = build_cnn()
 
+    # Standard training loop
     history = model.fit(
         x_train, y_train,
         validation_data=(x_test, y_test),
